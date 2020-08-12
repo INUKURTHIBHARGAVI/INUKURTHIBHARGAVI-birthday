@@ -23,15 +23,6 @@ body
     font-weight: bolder;
     font-size: 30px;
 }
-#box2
-{
-    width: 100%;
-    margin-left: 5%;
-    margin-right: 5%;
-    height: 650px;
-    background:url(vijitha.jpg);
-    transition: background 3s;
-}
 #one,#two,#three,#four,#five,#seven,#eight,#nine,#ten,#ele,#twel,#thirt,#frt
 {
     border-radius: 50px;
