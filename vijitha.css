@@ -6,8 +6,11 @@ body
 }
 #gif
 {
-    width="300px" ;
-    height="450px";
+    margin:2%;
+}
+#im
+{
+    margin:2%;
 }
 #wish
 {
