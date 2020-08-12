@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="vijitha.css" type="text/css">
+</head>
+<body>
+    <marquee direction ="left" behavior='alternate';>
+        <div id="one"> H </div>
+        <div id="two">A</div>
+        <div id="three">P</div>
+        <div id="four">P</div>
+        <div id="five">Y</div>
+        <div id="seven">B</div>
+        <div id="eight">I</div>
+        <div id="nine">R</div>
+        <div id="ten">T</div>
+        <div id="ele">H</div>
+        <div id="twel">D</div>
+        <div id="thirt">A</div>
+        <div id="frt">Y</div>
+        </marquee>
+    <div id="wish">Happy Birthday Vijitha &#128516;</div>
+    <img src="https://media.giphy.com/media/8eRcDDy6rCQTu/giphy.gif"  frameBorder="0" id="gif"></img>
+    <img src="vijitha.jpg" id="box2"></img>
+    <audio  autoplay >
+		<source src="C:\Users\saibhargavi\Downloads\happybirthday.mp3" type="audio/mpeg">
+	</audio>
+    <script>
+        var arr=["bluevoilet","yellow","bluevoilet","green","bluevoilet","indigo","orange","black","bluevoilet","red"];
+        var k=0;
+        setInterval(()=>{
+            setcolor(arr)
+        },1000);
+        function setcolor(arr)
+        {  
+            document.body.style.backgroundColor=arr[k];
+            k++;
+            if(k==arr.length)
+            {
+                k=0;
+            }
+        }
+
+    </script>
+</body>
+</html>

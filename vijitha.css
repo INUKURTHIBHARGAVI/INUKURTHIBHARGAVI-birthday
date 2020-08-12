@@ -1,0 +1,55 @@
+body
+{
+    background-color: blueviolet;
+    padding: 0%;
+    margin: 0%;
+}
+#gif
+{
+    width="600" ;
+    height="300";
+    float:left;
+    transform: matrix(1.1,0,0,1.18,180,45);
+    transition: transform 1.6s;
+}
+#wish
+{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    color: orange;
+    float: left;
+    transform: matrix(3,0,0,3.8,40,190);
+    margin-left: 6%;
+    padding-top: 2%;
+    text-align: center;
+    transition: transform 3s;
+    font-family: 'Lucida Sans';
+    font-weight: bolder;
+}
+#box2
+{
+    width: 100px;
+    height: 100px;
+    background:url(vijitha.jpg);
+    float: right;
+    transform: matrix(4,0,0,5,50,200);
+    margin-right: 16%;
+    text-align: center;
+    transition: transform 3s;
+}
+#one,#two,#three,#four,#five,#seven,#eight,#nine,#ten,#ele,#twel,#thirt,#frt
+{
+    border-radius: 50px;
+    background-color:tomato;
+    width: 50px;
+    height: 40px;
+    padding:10px;
+    text-align: center;
+    color:black;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bolder;
+    float: left;
+    align-content: flex-start;
+}
