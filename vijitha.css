@@ -19,11 +19,11 @@ body{
     animation-timing-function: linear;
     }
     @keyframes ex {
-        0% {left:0px;top:100px;width:30%;}
-        25% {left:50px;top:230px;width:40%;}
-        50% {left:0px;top:100px;width:30%;}
-        75% {left:50px;top:230px;width: 40%;}
-        100% {left:0px;top:100px;width: 30%;}
+        0% {left:0px;top:80px;}
+        25% {left:50px;top:200px;}
+        50% {left:0px;top:80px;}
+        75% {left:50px;top:200px;}
+        100% {left:0px;top:80px;}
         
     }
     #one,#two,#three,#four,#five,#seven,#eight,#nine,#ten,#ele,#twel,#thirt,#frt
