@@ -11,7 +11,6 @@ body{
     text-align: center;
     font-size: 30px;
     font-weight: 900;
-    padding-top: 2%;
     animation-duration: 10s;
     position: relative;
     border-radius: 50%;
@@ -20,11 +19,11 @@ body{
     animation-timing-function: linear;
     }
     @keyframes ex {
-        0% {background-color:green;left:0px;top:430px;width:60%;}
-        25% {background-color:red;left:50px;top:530px;width:40%;}
-        50% {background-color:blueviolet;left:50px;top:430px;width:30%;}
-        75% {background-color:orangered;left:0px;top:530px;width: 40%;}
-        100% {background-color:palevioletred;left:50px;top:430px;width: 30%;}
+        0% {background-color:green;left:0px;top:590px;width:60%;}
+        25% {background-color:red;left:50px;top:690px;width:40%;}
+        50% {background-color:blueviolet;left:50px;top:590px;width:30%;}
+        75% {background-color:orangered;left:0px;top:690px;width: 40%;}
+        100% {background-color:palevioletred;left:50px;top:590px;width: 30%;}
         
     }
     #one,#two,#three,#four,#five,#seven,#eight,#nine,#ten,#ele,#twel,#thirt,#frt
